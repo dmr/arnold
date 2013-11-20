@@ -11,6 +11,7 @@ setup(
     url='https://github.com/cam-stitt/arnold',
     license='BSD',
     packages=['arnold'],
+    test_suite='tests',
     zip_safe=False,
     install_requires=['peewee', 'termcolor'],
     include_package_data=True,
