@@ -13,7 +13,7 @@ from arnold.exceptions import (
     ModuleNotFoundException
 )
 from arnold.models import Migration
-from arnold.peewee import create_table
+from arnold.peewee_helpers import create_table
 
 
 db = SqliteDatabase('test.db')
